@@ -11,7 +11,8 @@ To install the plugin, copy the numberconvert/ folder into craft/plugins/. Then 
 
 ### numeralSystem( numeralSystem, zero )
 
-Converts a natural number (arabic numeral system) to a representation of that number in another numeral system. You can also apply the filter to any rational number and rounds to the closest natural number first.
+Converts a number (arabic numeral system) to a representation of that number in another numeral system. If applied to a rational number the filter rounds it to the closest integer first.
+
 
 ```html
 {{ 42|number_convert('roman') }}
