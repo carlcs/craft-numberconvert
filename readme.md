@@ -11,7 +11,7 @@ To install the plugin, copy the numberconvert/ folder into craft/plugins/. Then 
 
 ### numeralSystem( numeralSystem, zero )
 
-Converts a number (arabic numeral system) to a representation of that number in another numeral system. If applied to a rational number the filter rounds it to the closest integer first.
+Converts a number (arabic numeral system) to a representation of that number in another numeral system. If applied to a rational number (float), the filter rounds it to the closest integer first.
 
 
 ```html
