@@ -31,7 +31,7 @@ Converts a natural number (arabic numeral system) to a representation of that nu
 Converts a fraction to a decimal number.
 
 ```html
-{{ '2/3'|number_convert }}
+{{ '2/3'|fractionToFloat }}
 
 {# outputs 0.6667 #}
 
@@ -46,7 +46,7 @@ Converts a fraction to a decimal number.
 Converts a decimal number to a fraction.
 
 ```html
-{{ 0.7143|number_convert }}
+{{ 0.7143|floatToFraction }}
 
 {# outputs 5/7 #}
 
