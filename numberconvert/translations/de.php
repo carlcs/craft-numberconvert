@@ -15,7 +15,7 @@ return array(
         'centi' => 'Centi',
         'milli' => 'Milli',
         'micro' => 'Micro',
-        'nano' => 'Nano'
+        'nano' => 'Nano',
 
         'pebi' => 'Pebi',
         'tebi' => 'Tebi',
