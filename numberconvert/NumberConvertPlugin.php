@@ -10,7 +10,12 @@ class NumberConvertPlugin extends BasePlugin
 
 	function getVersion()
 	{
-		return '1.0';
+		return '1.1';
+	}
+
+	function getSchemaVersion()
+	{
+		return null;
 	}
 
 	function getDeveloper()
@@ -21,6 +26,16 @@ class NumberConvertPlugin extends BasePlugin
 	function getDeveloperUrl()
 	{
 		return 'https://github.com/carlcs/craft-numberconvert';
+	}
+
+	function getDocumentationUrl()
+	{
+		return 'https://github.com/carlcs/craft-numberconvert';
+	}
+
+	function getReleaseFeedUrl()
+	{
+		return 'https://github.com/carlcs/craft-numberconvert/raw/master/releases.json';
 	}
 
 	public function addTwigExtension()
