@@ -1,4 +1,4 @@
-# Number Convert plugin for Craft
+# Number Convert plugin for Craft CMS
 
 Provides a collection of Twig filters to convert numbers.
 
